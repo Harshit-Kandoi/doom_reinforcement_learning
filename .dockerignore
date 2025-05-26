@@ -1,0 +1,31 @@
+# Ignore system files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model weights (if not needed in image)
+*.pth
+*.h5
+*.pt
+
+# Ignore data
+*.csv
+*.npy
+*.npz
+train/
+test/
+data/
+datasets/
+
+# Git
+.git
+.gitignore
+.gitattributes
