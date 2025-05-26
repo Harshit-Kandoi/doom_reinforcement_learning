@@ -104,6 +104,26 @@ Checkpoints and final trained models are stored in the train/ folder. The train_
 
 ---
 
+# ViZDoom Docker Environment
+
+This repository contains a Dockerized Jupyter Notebook environment for running ViZDoom-based AI experiments.
+
+## 🚀 Getting Started
+
+### Build the Docker Image
+
+```bash
+docker build -t vizdoom-game .
+```
+
+### Run the Container
+```bash
+docker run -p 8888:8888 vizdoom-game
+```
+Open the link shown in the terminal (HTTP://127.0.0.1:8888/?token=...) to access the Jupyter notebook.
+
+---
+
 ## 🚧 Challenges & Limitations
 
 While building and training the agents, the following challenges and limitations were encountered:
